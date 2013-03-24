@@ -82,7 +82,8 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 27. Taming Monster Skill - Sage's skill -Taming Monster- becomes custom skill for Super Novice classes
 28. bonus bNoEleStone - Custom item bonus that allow player use skill without Flame, Water, Wind Stone, and Shadow Orb
 	- doc/item_bonus
-29. 
+29. Global Damage Adjustment - Set global damage rate for short and long attack damage, also weapon, magic, and misc skill damage
+	- conf file: yes
 
 -----------------------------------
 -- Another Customs ----------------
