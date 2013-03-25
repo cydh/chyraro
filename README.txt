@@ -28,8 +28,10 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 7. @refine Prevention - Prevent certain Group Level (conf/groups.conf) to instant refine item use @refine or @item2
 	- conf file: yes
 	- db/item_no_atrefine.txt
+	- Usage on @refine, @item2
 8. @item Prevention - Prevent certain Group Level (conf/groups.conf) to get item by using @item command
 	- db/item_no_atitem.txt
+	- Usage on @item
 9. Warp Delay - Give delay to player that attempts to escape when attacking or receiving attack.
 	- conf file: yes
 10. AFK Mapflag - @afk command only can be used at afk maps
@@ -44,7 +46,7 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 12. [BETA Test] Damage Adjustments - Adjust global damage rates, like PK damages on (conf/battle/misc.conf), GVG (conf/battle/guild.conf), and Battleground (conf/battle/battleground.conf)
 	- conf file: yes
 	- conf/mapflag/atk_rate.txt
-13. @aura1/@aura2 - Set additional aura for player. (Originally from eAthena old forum)
+13. Auraset - Set additional aura for player. (Originally from eAthena old forum)
 	- @aura1 <number>
 	- @aura2 <number>
 	- Support 2 auras.
@@ -53,8 +55,13 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- @reloadpcdb - Reload color database [Cydh]
 16. Advanced countitem() Script Command - Now can use countitem() to count certain item in cart, storage, or guild storage too. Also works for countitem2()
 	- Look at doc/script_commands.txt
+	- @countitem <item_id>
+	- @cartcountitem <item_id>
+	- @storagecountitem <item_id>
 17. Advanced delitem() Script Command - Now can use delitem() to count certain item in cart, storage, or guild storage too. Also works for delitem2()
 	- Look at doc/script_commands.txt
+	- @cartdelitem <item_id> <amount>
+	- @storagedelitem <item_id> <amount>
 18. Security System - Secure your items
 	- @security
 19. Lock Player Atcommand - Prevent player to disable atcommand, so when player using every atcommand it will shows like normal chat.
@@ -84,6 +91,13 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- doc/item_bonus
 29. Global Damage Adjustment - Set global damage rate for short and long attack damage, also weapon, magic, and misc skill damage
 	- conf file: yes
+	- conf/mapflag/atk_rate.txt - Adjust damage rate at certain map
+30. Map Announcer - Announces map description to player self every map changed
+	- conf file: yes
+	- db/map_desc.txt
+31. @storage2 - Open other player's storage
+	- @storage2 <char name>
+32. 
 
 -----------------------------------
 -- Another Customs ----------------
@@ -95,5 +109,5 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- db/skill_damage_db.txt
 3. Find Vended Items - Find item that sell in buyingstore by other players easily
 	- @whosell
-4. Auraset - Set additional aura for player. (Originally from eAthena old forum) [Modified by Cydh] 
+4. Auraset - Set additional aura for player. (Originally from eAthena old forum. Modified by Cydh, see above)
 5. 
