@@ -1,10 +1,56 @@
 (c) 2013 by Cydh - house.bad@gmail.com
+http://pservero.com
 
+*******************************************************************
+-------------------------------------------------------------------
+//////////////////////// PAID MODIFICATION ////////////////////////
+/////////////////// Pay for each modification /////////////////////
+-------------------------------------------------------------------
+*******************************************************************
+Every custom that has conf files, look at conf/battle/mod_cydh.conf
+1. Maxcap! - Give maximum damage when player attacking
+	- 30 USD (On sale 20 USD)
+	- conf file: yes
+	- conf/groups.conf - Set group permission to bypass this maxcap mode
+	- conf/mapflag/maxcap.txt
+	- db/skill_maxcap_db.txt
+2. Separate Pick Log Tables - Look at log database on MySQL
+	- 20 USD (On sale 15 USD)
+	- conf file: yes
+	- MySQL file: separate_logs_db.sql
+3. Security System - Secure your items from transaction
+	- 30 USD (On sale 25 USD)
+	- @security
+	- NPC file: Security.txt
+4. Autostore Looted Items - Store all looted items to storage automatically without open the storage
+	- 20 USD (On sale 15 USD)
+	- @autostore <item type> {<min. char weight>}
+5. @storage2 - Open other player's storage
+	- 15 USD (On sale 10 USD)
+	- @storage2 <char name>
+6. @partnerstorage - Open partner's storage
+	- 15 USD (On sale 10 USD)
+	- @partnerstorage
+7. Chat Color - Chat color that appears to another player can be customized depends on Group Level
+	- 5 USD
+	- db/chat_color_db.txt
+	- @reloadchatcolor - reload color database [Cydh]
+8. Getitemslots2 Script Command - Get number of item slots that edited by Epoque's Expansion Pack
+	- 10 USD
+	- NPC file: getitemslots2.txt
+9. 
+
+
+*******************************************************************
+-------------------------------------------------------------------
+////////////////////////// SERVER BUNDLE //////////////////////////
+-------------------------------------------------------------------
+*******************************************************************
 -----------------------------------
 -- Special Customs by Cydh --------
 -----------------------------------
 Every custom that has conf files, look at conf/battle/mod_cydh.conf
-1. Separate Pick Log Tables - Look at log database on MySQL
+1. Separate Pick Log Tables - Look at log database on MySQL (Requested by Zack, 20 USD)
 	- conf file: yes
 2. Zeny From Mobs Adjusment - Adjust gained zeny from mobs as like you want, just like adjust item drop rates
 	- conf file: yes
@@ -20,7 +66,7 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 5. Noequip Mapflag - Prevent player to wear any equipments at noconsume maps
 	- conf file: yes
 	- conf/mapflag/noequip.txt
-6. Maxcap! - Give maximum damage when player attacking
+6. Maxcap! - Give maximum damage when player attacking (On sale for 20 USD for .patch file only)
 	- conf file: yes
 	- conf/groups.conf - Set group permission to bypass this maxcap mode
 	- conf/mapflag/maxcap.txt
@@ -62,8 +108,9 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- Look at doc/script_commands.txt
 	- @cartdelitem <item_id> <amount>
 	- @storagedelitem <item_id> <amount>
-18. Security System - Secure your items
+18. Security System - Secure your items from transaction (On sale for 25 USD for .patch file only)
 	- @security
+	- NPC file: Security.txt
 19. Lock Player Atcommand - Prevent player to disable atcommand, so when player using every atcommand it will shows like normal chat.
 	- @lockcommand "<char name>" is used to lock or unlock
 	- lockcommand() is used to lock player atcommand by NPC script
@@ -81,7 +128,7 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 24. AFK - Log off the account but makes the character left AFK in-game
 	- @afk "<chat room title>" - makes char AFK with chat room
 	- @afk2 "<away message>" - makes char AFK with Notice Board hat + away message (@away)
-25. Autostore Looted Items - Store all looted items to storage automatically without open the storage
+25. Autostore Looted Items - Store all looted items to storage automatically without open the storage (On sale for 15 USD for .patch only)
 	- @autostore <item type> {<min. char weight>}
 26. Intravision - Gives player intravision (Maya Purple Effect) without Maya Purple Card
 	- @intravision
@@ -95,14 +142,16 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 30. Map Announcer - Announces map description to player self every map changed
 	- conf file: yes
 	- db/map_desc.txt
-31. @storage2 - Open other player's storage
+31. @storage2 - Open other player's storage (Requested by OnNPlay -Canceled-. On sale for 10 USD for .patch file only)
 	- @storage2 <char name>
-32. 
+32. @partnerstorage - Open partner's storage (On sale for 10 USD for .patch file only)
+	- @partnerstorage
+33. 
 
 -----------------------------------
 -- Another Customs ----------------
 -----------------------------------
-1. Chat Color - Chat color that appears to another player can be customized depends on Group Level
+1. Chat Color - Chat color that appears to another player can be customized depends on Group Level (Requested by Zack, 5 USD)
 	- db/chat_color_db.txt
 	- @reloadchatcolor - reload color database [Cydh]
 2. Manage Damage Skill - Adjust damage for skills
