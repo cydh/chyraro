@@ -14,7 +14,7 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- conf/groups.conf - Set group permission to bypass this maxcap mode
 	- conf/mapflag/maxcap.txt
 	- db/skill_maxcap_db.txt
-2. Separate Pick Log Tables - Look at log database on MySQL
+2. Separate Pick Log Tables - Look at log database on MySQL	[Requested by Zack]
 	- 20 USD (On sale 15 USD)
 	- conf file: yes
 	- MySQL file: separate_logs_db.sql
@@ -31,14 +31,30 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 6. @partnerstorage - Open partner's storage
 	- 15 USD (On sale 10 USD)
 	- @partnerstorage
-7. Chat Color - Chat color that appears to another player can be customized depends on Group Level
+7. Chat Color - Chat color that appears to another player can be customized depends on Group Level	[Requested by Zack]
 	- 5 USD
 	- db/chat_color_db.txt
 	- @reloadchatcolor - reload color database [Cydh]
-8. Getitemslots2 Script Command - Get number of item slots that edited by Epoque's Expansion Pack
+8. Getitemslots2 Script Command - Get number of item slots that edited by Epoque's Expansion Pack	[Requested by Zack]
 	- 10 USD
 	- NPC file: getitemslots2.txt
-9. 
+9. Homunculus Damage Ignorance - Makes homunculus ignores any incoming damage	[Requested by Judas]
+	- 10 USD
+	- conf file: yes	(improved)
+	- @homignoredamage - Makes your homunculus ignore every damage. Works like player @battleignore
+	- conf/mapflag/hom_ignorance.txt	(improved)
+10. Homunculus Modification - Another homunculus modification, more creation mode [Requested by CandyCandy]
+	- 30 USD
+	- conf file: yes
+	- *Feeding success chance
+	- *Hide/temporary remove when hungry
+	- *Hungry delay rate
+	- *Loot when hungry
+	- *Master will not loot when idle
+11. Refine Bonus - Give more additional bonus for refined equipment, just like Script on item_db.txt	[Requested by Icabit]
+	- 15 USD
+	- db/refine_bonus.txt
+12. 
 
 
 *******************************************************************
@@ -50,7 +66,7 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 -- Special Customs by Cydh --------
 -----------------------------------
 Every custom that has conf files, look at conf/battle/mod_cydh.conf
-1. Separate Pick Log Tables - Look at log database on MySQL (Requested by Zack, 20 USD)
+1. Separate Pick Log Tables - Look at log database on MySQL [Requested by Zack, 20 USD]
 	- conf file: yes
 2. Zeny From Mobs Adjusment - Adjust gained zeny from mobs as like you want, just like adjust item drop rates
 	- conf file: yes
@@ -142,20 +158,34 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 30. Map Announcer - Announces map description to player self every map changed
 	- conf file: yes
 	- db/map_desc.txt
-31. @storage2 - Open other player's storage (Requested by OnNPlay -Canceled-. On sale for 10 USD for .patch file only)
+31. @storage2 - Open other player's storage [Requested by OnNPlay -Canceled-. On sale for 10 USD for .patch file only]
 	- @storage2 <char name>
 32. @partnerstorage - Open partner's storage (On sale for 10 USD for .patch file only)
 	- @partnerstorage
-33. 
+33. Homunculus Damage Ignorance - Makes homunculus ignores any incoming damage	[Requested by Judas, 10 USD]
+	- conf file: yes	(improved)
+	- @homignoredamage - Makes your homunculus ignore every damage. Works like player @battleignore
+	- conf/mapflag/hom_ignorance.txt	(improved)
+34. Homunculus Modification - Another homunculus modification, more creation mode [Requested by CandyCandy, 30 USD]
+	- conf file: yes
+	- *Feeding success chance
+	- *Hide/temporary remove when hungry
+	- *Hungry delay rate
+	- *Loot when hungry
+	- *Master will not loot when idle
+35. Refine Bonus - Give more additional bonus for refined equipment, just like Script on item_db.txt	[Requested by Icabit, 15 USD]
+	- db/refine_bonus.txt
+36. 
 
 -----------------------------------
 -- Another Customs ----------------
 -----------------------------------
-1. Chat Color - Chat color that appears to another player can be customized depends on Group Level (Requested by Zack, 5 USD)
+1. Chat Color - Chat color that appears to another player can be customized depends on Group Level [Requested by Zack, 5 USD]
 	- db/chat_color_db.txt
 	- @reloadchatcolor - reload color database [Cydh]
 2. Manage Damage Skill - Adjust damage for skills
 	- db/skill_damage_db.txt
+	- conf/mapflag/skill_damage.txt	[Cydh]
 3. Find Vended Items - Find item that sell in buyingstore by other players easily
 	- @whosell
 4. Auraset - Set additional aura for player. (Originally from eAthena old forum. Modified by Cydh, see above)
