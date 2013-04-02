@@ -1,0 +1,12 @@
+1. How to fix XileRO Hat icons?
+	a. Copy all files inside "data\texture\유저인터페이스\item" 
+	   to "YourXileROFolder\data\texture\유저인터페이스\item"
+	b. Open "idnum2itemdisplaynametable.txt" on your XileRO's data folder then go to the last line, 
+	   then copy all contents inside "idnum2itemdisplaynametable-hats.txt". Save it
+	c. Open "idnum2itemresnametable.txt" on your XileRO's data folder then go to the last line, 
+	   then copy all contents inside "idnum2itemresnametable-hats.txt". Save it
+2. How to fix XileRO Egg 'X' icons?
+	a. Open "idnum2itemdisplaynametable.txt" on your XileRO's data folder then go to the last line, 
+	   then copy all contents inside "idnum2itemdisplaynametable-eggs.txt". Save it
+	b. Open "idnum2itemresnametable.txt" on your XileRO's data folder then go to the last line, 
+	   then copy all contents inside "idnum2itemresnametable-eggs.txt". Save it
