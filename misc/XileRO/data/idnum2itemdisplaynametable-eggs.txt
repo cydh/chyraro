@@ -1,6 +1,62 @@
-
+// XileRO Eggs
 4290#Cat O' Nine Tails Egg#
+
+9001#Poring_Egg#
+9002#Drops_Egg#
+9003#Poporing_Egg#
+9004#Lunatic_Egg#
+9005#Picky_Egg#
+9006#Chonchon_Egg#
+9007#Steel_Chonchon_Egg#
+9008#Hunter_Fly_Egg#
+9009#Savage_Babe_Egg#
+9010#Baby_Desert_Wolf_Egg#
+9011#Rocker_Egg#
+9012#Spore_Egg#
+9013#Poison_Spore_Egg#
+9014#Peco_Peco_Egg#
+9015#Smokie_Egg#
+9016#Yoyo_Egg#
+9017#Orc_Warrior_Egg#
+9018#Munak_Egg#
+9019#Dokebi_Egg#
+9020#Sohee_Egg#
+9021#Isis_Egg#
+9022#Green_Petite_Egg#
+9023#Deviruchi_Egg#
+9024#Bapho_Jr._Egg#
+9025#Bongun_Egg#
+9026#Zherlthsh_Egg#
+9027#Alice_Egg#
+9028#Rice_Cake_Egg#
+9029#Christmas_Goblin_Egg#
+9030#Chung_E_Egg#
+9031#Baby Leopard Egg#
+9032#Ghostring Egg#
+9033#Vocal Egg#
+9034#Shining Plant Egg#
+9035#Deviace Egg#
+9036#Desert Wolf Egg#
+9037#Condor Egg#
+9038#Wolf Egg#
+9039#Fake Angel Egg#
+9040#Xmas Jakk Egg#
+9041#Xmas Goblin Egg#
+9042#Lude Egg#
+9043#Owl Baron Egg#
+9044#Kobold Leader Egg#
+9045#Quve Egg#
+9046#Bloody Butterfly Egg#
 9047#Tirfing Egg#
+9048#Verit Egg#
+9049#Sidewinder Egg#
+9050#Rideword Egg#
+9051#Stone_Shooter_Egg#
+9052#Wind Ghost Egg#
+9053#Golem_Egg#
+9054#Nightmare_Terror_Egg#
+9055#Antonio Egg#
+9056#Imp_Egg#
 9057#Archangeling Egg#
 9057#Galapago Egg#
 9058#Lord of Dead Egg#
@@ -45,14 +101,859 @@
 9097#Bacsojin Egg#
 9098#Ching E Egg#
 9099#Boiled Rice Egg#
-9124#Golem Egg#
+9100#Scorpion Egg#
+9101#Valaris Worshiper Egg#
+9102#Hyegun Egg#
+9103#Civil Servant Egg#
+9104#Golem Egg#
+9105#Wooden Golem Egg#
+9106#Stalactic Golem Egg#
+9107#Grand Peco Egg#
+9108#Geographer Egg#
+9109#Zombie Egg#
+9110#Succubus Egg#
+9111#Abysmal Knight Egg#
+9112#Penomena Egg#
+9113#Whisper Egg#
+9114#Giant Whisper Egg#
+9115#Apocalypse Egg#
+9116#Skeleton General Egg#
+9117#Bloody Murderer Egg#
+9118#Assaulter Egg#
+9119#Coco Egg#
+9120#Evil Cloud Hermit Egg#
+9121#Wicked Nypmh Egg#
+9122#Ginseng Egg#
+9123#Gibbet Egg#
+9124#Dullahan Egg#
+9125#Choco Egg#
+9126#Alarm Egg#
+9127#Clock Tower Manager Egg#
+9128#Aligator Egg#
+9129#Raydric Archer Egg#
+9130#Requiem Egg#
+9131#Zerom Egg#
+9132#Zenorc Egg#
+9133#Skeleton Archer Egg#
+9134#Skeleton Soldier Egg#
+9135#Disguise Egg#
+9136#Lava Golem Egg#
+9137#Nightmare Terror Egg#
+9138#Nightmare Egg#
+9139#Mysteltain Egg#
+9140#Rybio Egg#
+9141#Phendark Egg#
+9142#Executioner Egg#
+9143#Anolian Egg#
+9144#Medusa Egg#
+9145#Matyr Egg#
+9146#Cat'o Nine Tail Egg#
+9147#Goblin Leader Egg#
+9148#Bigfoot Egg#
+9149#Raydric Egg#
+9150#Shellfish Egg#
+9151#Turtle Egg#
+9152#Skeleton Egg#
+9153#Red Plant Egg#
+9154#Blue Plant Egg#
+9155#Green Plant Egg#
+9156#Yellow Plant Egg#
+9157#White Plant Egg#
+9158#Shining Plant Egg#
+9159#Black Mushroom Egg#
+9160#Red Mushroom Egg#
+9161#Golden Thief Bug Egg#
+9162#Orc Hero Egg#
+9163#Vocal Egg#
+9164#Toad Egg#
+9165#Mastering Egg#
+9166#Dragon Fly Egg#
+9167#Vagabond Wolf Egg#
+9168#Eclipse Egg#
+9169#Ambernite Egg#
+9170#Andre Egg#
+9171#Angeling Egg#
+9172#Ant Egg Egg#
+9173#Anubis Egg#
+9174#Argiope Egg#
+9175#Argos Egg#
+9176#Bathory Egg#
+9177#Caramel Egg#
+9178#Coco Egg#
+9179#Deniro Egg#
+9180#Desert Wolf Egg#
+9181#Deviace Egg#
+9182#Drainliar Egg#
+9183#Drake Egg#
+9184#Dustiness Egg#
+9185#Eddga Egg#
+9186#Eggyra Egg#
+9187#Evil Druid Egg#
+9188#Flora Egg#
+9189#Frilldora Egg#
+9190#Ghostring Egg#
+9191#Giearth Egg#
+9192#Goblin Egg#
+9193#Goblin Egg#
+9194#Hode Egg#
+9195#Horn Egg#
+9196#Horong Egg#
+9197#Jakk Egg#
+9198#Joker Egg#
+9199#Khalitzburg Egg#
+9200#Kobold Egg#
+9201#Kobold Egg#
+9202#Kobold Egg#
+9203#Magnolia Egg#
+9204#Mantis Egg#
+9205#Marduk Egg#
+9206#Marina Egg#
+9207#Marine Sphere Egg#
+9208#Marionette Egg#
+9209#Marse Egg#
+9210#Martin Egg#
+9211#Matyr Egg#
+9212#Maya Egg#
 9213#Medusa Egg#
-9269#Abysmal Knight#
-9353#Cat O' Nine Tails Egg#
+9214#Minorous Egg#
+9215#Moonlight Flower Egg#
+9216#Myst Egg#
+9217#Orc Skeleton Egg#
+9218#Orc Zombie Egg#
+9219#Pasana Egg#
+9220#Pharaoh Egg#
+9221#Phen Egg#
+9222#Phreeoni Egg#
+9223#Piere Egg#
+9224#Plankton Egg#
+9225#Rafflesia Egg#
+9226#Raydric Egg#
+9227#Requiem Egg#
+9228#Sandman Egg#
+9229#Savage Egg#
+9230#Skeleton Worker Egg#
+9231#Stainer Egg#
+9232#Tarou Egg#
+9233#Vitata Egg#
+9234#Zenorc Egg#
+9235#Zerom Egg#
+9236#Whisper Egg#
+9237#Nine Tail Egg#
+9238#Thief Mushroom Egg#
+9239#Chonchon Egg#
+9240#Fabre Egg#
+9241#Whisper Egg#
+9242#Giant Whisper Egg#
+9243#Switch Egg#
+9244#Orc Archer Egg#
+9245#Orc Lord Egg#
+9246#Mimic Egg#
+9247#Wraith Egg#
+9248#Alarm Egg#
+9249#Arclouze Egg#
+9250#Rideword Egg#
+9251#Skeleton Prisoner Egg#
+9252#Zombie Prisoner Egg#
+9253#Dark Priest Egg#
+9254#Punk Egg#
+9255#Rybio Egg#
+9256#Phendark Egg#
+9257#Mysteltainn Egg#
+9258#Ogretooth Egg#
+9259#Executioner Egg#
+9260#Anolian Egg#
+9261#Sting Egg#
+9262#Cramp Egg#
+9263#Brilight Egg#
+9264#Iron Fist Egg#
+9265#High Orc Egg#
+9266#Choco Egg#
+9267#Stem Worm Egg#
+9268#Penomena Egg#
+9269#Abysmal Knight Egg#
+9270#Desert Wolf Egg#
+9271#Savage Egg#
+9272#High Orc Egg#
+9273#Poison Spore Egg#
+9274#Choco Egg#
+9275#Kobold Egg#
+9276#Goblin Egg#
+9277#Phen Egg#
+9278#Fabre Egg#
+9279#Pupa Egg#
+9280#Creamy Egg#
+9281#Peco Peco Egg Egg#
+9282#Peco Peco Egg#
+9283#Yoyo Egg#
+9284#Smoking Orc Egg#
+9285#Ant Egg Egg#
+9286#Andre Egg#
+9287#Piere Egg#
+9288#Deniro Egg#
+9289#Picky Egg#
+9290#Picky Egg#
+9291#Marin Egg#
+9292#Sasquatch Egg#
+9293#Christmas Jakk Egg#
+9294#Christmas Cookie Egg#
+9295#Antonio Egg#
+9296#Cruiser Egg#
+9297#Myst Case Egg#
+9298#Chepet Egg#
+9299#Stormy Knight Egg#
+9300#Garm Egg#
+9301#Gargoyle Egg#
+9302#Raggler Egg#
+9303#Nereid Egg#
+9304#Pest Egg#
+9305#Injustice Egg#
+9306#Goblin Archer Egg#
+9307#Gryphon Egg#
+9308#Dark Frame Egg#
+9309#Wild Rose Egg#
+9310#Mutant Dragonoid Egg#
+9311#Wind Ghost Egg#
+9312#Merman Egg#
+9313#Cookie Egg#
+9314#Aster Egg#
+9315#Carat Egg#
+9316#Bloody Knight Egg#
+9317#Clock Egg#
+9318#Clock Tower Manager Egg#
+9319#Alligator Egg#
+9320#Dark Lord Egg#
+9321#Orc Lady Egg#
+9322#Megalith Egg#
+9323#Raydric Archer Egg#
+9324#Greatest General Egg#
+9325#Stalactic Golem Egg#
+9326#Tri Joint Egg#
+9327#Goblin Steamrider Egg#
+9328#Sage Worm Egg#
+9329#Kobold Archer Egg#
+9330#Chimera Egg#
+9331#Archer Guardian Egg#
+9332#Knight Guardian Egg#
+9333#Soldier Guardian Egg#
+9334#Emperium Egg#
+9335#Maya Purple Egg#
+9336#Skeleton General Egg#
+9337#Wraith Dead Egg#
+9338#Mini Demon Egg#
+9339#Creamy Fear Egg#
+9340#Killer Mantis Egg#
+9341#Owl Baron Egg#
+9342#Kobold Leader Egg#
+9343#Ancient Mummy Egg#
+9344#Zombie Master Egg#
+9345#Goblin Leader Egg#
+9346#Caterpillar Egg#
+9347#Am Mut Egg#
+9348#Dark Illusion Egg#
+9349#Giant Hornet Egg#
+9350#Giant Spider Egg#
+9351#Ancient Worm Egg#
+9352#Leib Olmai Egg#
+9353#Cat o' Nine Tails Egg#
+9354#Panzer Goblin Egg#
+9355#Gajomart Egg#
+9356#Majoruros Egg#
+9357#Gullinbursti Egg#
+9358#Turtle General Egg#
+9359#Mobster Egg#
+9360#Permeter Egg#
+9361#Assaulter Egg#
+9362#Solider Egg#
+9363#Seal Egg#
+9364#Heater Egg#
+9365#Freezer Egg#
+9366#Owl Duke Egg#
+9367#Dragon Tail Egg#
+9368#Spring Rabbit Egg#
+9369#Sea Otter Egg#
+9370#Treasure Chest Egg#
+9371#Treasure Chest Egg#
+9372#Treasure Chest Egg#
+9373#Treasure Chest Egg#
+9374#Treasure Chest Egg#
+9375#Treasure Chest Egg#
+9376#Treasure Chest Egg#
+9377#Treasure Chest Egg#
+9378#Treasure Chest Egg#
+9379#Treasure Chest Egg#
+9380#Treasure Chest Egg#
+9381#Treasure Chest Egg#
+9382#Treasure Chest Egg#
+9383#Treasure Chest Egg#
+9384#Treasure Chest Egg#
+9385#Treasure Chest Egg#
+9386#Treasure Chest Egg#
+9387#Treasure Chest Egg#
+9388#Treasure Chest Egg#
+9389#Treasure Chest Egg#
+9390#Treasure Chest Egg#
+9391#Treasure Chest Egg#
+9392#Treasure Chest Egg#
+9393#Treasure Chest Egg#
+9394#Treasure Chest Egg#
+9395#Treasure Chest Egg#
+9396#Treasure Chest Egg#
+9397#Treasure Chest Egg#
+9398#Treasure Chest Egg#
+9399#Treasure Chest Egg#
+9400#Treasure Chest Egg#
+9401#Treasure Chest Egg#
+9402#Treasure Chest Egg#
+9403#Treasure Chest Egg#
+9404#Treasure Chest Egg#
+9405#Treasure Chest Egg#
+9406#Treasure Chest Egg#
+9407#Treasure Chest Egg#
+9408#Treasure Chest Egg#
+9409#Treasure Chest Egg#
+9410#Assaulter Egg#
+9411#Apocalypse Egg#
+9412#Lava Golem Egg#
+9413#Blazer Egg#
+9414#Geographer Egg#
 9415#Grand Peco Egg#
+9416#Succubus Egg#
+9417#False Angel Egg#
+9418#Goat Egg#
+9419#Lord of the Dead Egg#
+9420#Incubus Egg#
+9421#The Paper Egg#
+9422#Harpy Egg#
+9423#Elder Egg#
+9424#Demon Pungus Egg#
+9425#Nightmare Terror Egg#
+9426#Driller Egg#
+9427#Grizzly Egg#
+9428#Explosion Egg#
+9429#Sleeper Egg#
+9430#Gig Egg#
+9431#Arc Angeling Egg#
+9432#Dracula Egg#
+9433#Violy Egg#
+9434#Galapago Egg#
+9435#Rotar Zairo Egg#
+9436#Mummy Egg#
+9437#Zombie Egg#
+9438#Wind Crystal Egg#
+9439#Earth Crystal Egg#
+9440#Fire Crystal Egg#
+9441#Water Crystal Egg#
+9442#Baphomet Egg#
+9443#Karakasa Egg#
+9444#Shinobi Egg#
+9445#Poison Toad Egg#
+9446#Firelock Soldier Egg#
+9447#Miyabi Doll Egg#
+9448#Tengu Egg#
+9449#Kapha Egg#
+9450#Bloody ****erfly Egg#
+9451#Dumpling Child Egg#
+9452#Enchanted Peach Tree Egg#
+9453#Taoist Hermit Egg#
+9454#Hermit Plant Egg#
+9455#Baby Leopard Egg#
 9456#Evil Nymph Egg#
+9457#Zipper Bear Egg#
+9458#Evil Snake Lord Egg#
+9459#Familiar Egg#
+9460#Archer Skeleton Egg#
+9461#Isis Egg#
+9462#Hunter Fly Egg#
+9463#Ghoul Egg#
+9464#Side Winder Egg#
+9465#Obeaune Egg#
+9466#Marc Egg#
+9467#Nightmare Egg#
+9468#Poison Spore Egg#
+9469#Argiope Egg#
+9470#Argos Egg#
+9471#Baphomet Jr. Egg#
+9472#Desert Wolf Egg#
+9473#Deviruchi Egg#
+9474#Drainliar Egg#
+9475#Evil Druid Egg#
+9476#Jakk Egg#
+9477#Joker Egg#
+9478#Khalitzburg Egg#
+9479#High Orc Egg#
+9480#Stem Worm Egg#
+9481#Penomena Egg#
+9482#Sasquatch Egg#
+9483#Cruiser Egg#
+9484#Chepet Egg#
+9485#Raggler Egg#
+9486#Injustice Egg#
+9487#Gryphon Egg#
+9488#Dark Frame Egg#
+9489#Mutant Dragonoid Egg#
+9490#Wind Ghost Egg#
+9491#Merman Egg#
+9492#Orc Lady Egg#
+9493#Raydric Archer Egg#
+9494#Tri Joint Egg#
+9495#Kobold Archer Egg#
+9496#Chimera Egg#
+9497#Mantis Egg#
+9498#Marduk Egg#
+9499#Marionette Egg#
+9500#Matyr Egg#
+9501#Minorous Egg#
+9502#Orc Skeleton Egg#
+9503#Orc Zombie Egg#
+9504#Pasana Egg#
+9505#Petite Egg#
+9506#Petite Egg#
+9507#Raydric Egg#
+9508#Requim Egg#
+9509#Skeleton Worker Egg#
+9510#Zerom Egg#
+9511#Nine Tail Egg#
+9512#Bongun Egg#
+9513#Orc Archer Egg#
+9514#Mimic Egg#
+9515#Wraith Egg#
+9516#Alarm Egg#
+9517#Arclouze Egg#
+9518#Rideword Egg#
+9519#Skeleton Prisoner Egg#
+9520#Zombie Prisoner Egg#
+9521#Punk Egg#
+9522#Zealotus Egg#
+9523#Rybio Egg#
+9524#Phendark Egg#
+9525#Mysteltainn Egg#
+9526#Ogretooth Egg#
+9527#Executioner Egg#
+9528#Anolian Egg#
+9529#Sting Egg#
+9530#Wanderer Egg#
+9531#Dokebi Egg#
+9532#Samurai Specter Egg#
+9533#Dryad Egg#
+9534#Beetle King Egg#
+9535#Stone Shooter Egg#
+9536#Wooden Golem Egg#
+9537#Wootan Shooter Egg#
+9538#Wootan Fighter Egg#
+9539#Parasite Egg#
+9540#Bring it on! Egg#
+9541#Gibbet Egg#
 9542#Dullahan Egg#
+9543#Loli Ruri Egg#
+9544#Disguise Egg#
+9545#Bloody Murderer Egg#
+9546#Quve Egg#
+9547#Lude Egg#
+9548#Heirozoist Egg#
+9549#Amon Ra Egg#
+9550#Yao Jun Egg#
+9551#Mao Guai Egg#
+9552#Zhu Po Long Egg#
+9553#Garm Baby Egg#
+9554#Mi Gao Egg#
+9555#Jing Guai Egg#
+9556#White Lady Egg#
+9557#Boiled Rice Egg#
+9558#Alice Egg#
+9559#Ancient Mummy Egg#
+9560#Firelock Soldier Egg#
+9561#Baby Leopard Egg#
+9562#Bathory Egg#
+9563#Bloody ****erfly Egg#
+9564#Clock Tower Manager Egg#
+9565#Clock Egg#
+9566#Evil Snake Lord Egg#
+9567#Dracula Egg#
+9568#Taoist Hermit Egg#
+9569#Explosion Egg#
+9570#Seal Egg#
+9571#Goblin Egg#
+9572#Goblin Egg#
+9573#Goblin Egg#
+9574#Goblin Egg#
+9575#Goblin Egg#
+9576#Goblin Leader Egg#
 9577#Golem Egg#
+9578#Greatest General Egg#
+9579#Incantation Samurai Egg#
+9580#Kapha Egg#
+9581#Karakasa Egg#
+9582#Kobold Egg#
+9583#Kobold Egg#
+9584#Kobold Egg#
+9585#Kobold Leader Egg#
+9586#Lava Golem Egg#
+9587#Enchanted Peach Tree Egg#
+9588#Marse Egg#
+9589#Miyabi Doll Egg#
+9590#Myst Egg#
+9591#Nightmare Terror Egg#
+9592#Parasite Egg#
+9593#Poisonous Toad Egg#
+9594#Rotar Zairo Egg#
+9595#Sandman Egg#
+9596#Scorpion Egg#
+9597#Shinobi Egg#
+9598#Smokie Egg#
+9599#Soldier Skeleton Egg#
+9600#Tengu Egg#
 9601#Evil Nymph Egg#
+9602#Hermit Plant Egg#
+9603#Wraith Dead Egg#
+9604#Ancient Worm Egg#
+9605#Angeling Egg#
+9606#Bloody Knight Egg#
+9607#Cramp Egg#
+9608#Deviace Egg#
+9609#Drops Egg#
+9610#Elder Egg#
+9611#Elder Willow Egg#
+9612#Flora Egg#
+9613#Ghostring Egg#
+9614#Goblin Archer Egg#
+9615#Horong Egg#
+9616#Hydra Egg#
+9617#Incubus Egg#
+9618#Vocal Egg#
+9619#Deviling Egg#
+9620#Tao Gunka Egg#
+9621#Tamruan Egg#
+9622#Mime Monkey Egg#
+9623#Leaf Cat Egg#
+9624#Kraben Egg#
+9625#Christmas Orc Egg#
+9626#Mandragora Egg#
+9627#Geographer Egg#
+9628#Lunatic Egg#
+9629#Gangster Egg#
+9630#Ancient Mummy Egg#
+9631#Freezer Egg#
+9632#Marin Egg#
+9633#Tamruan Egg#
+9634#Gargoyle Egg#
+9635#Blazzer Egg#
+9636#Giant Whisper Egg#
+9637#Heater Egg#
+9638#Permeter Egg#
+9639#Solider Egg#
+9640#Bigfoot Egg#
+9641#Giant Hornet Egg#
+9642#Dark Illusion Egg#
+9643#Garm Baby Egg#
+9644#Christmas Goblin Egg#
+9645#Thief Bug Male Egg#
+9646#Zhu Po Long Egg#
+9647#Munak Egg#
+9648#Bongun Egg#
+9649#Yao Jun Egg#
+9650#Metaling Egg#
+9651#Mineral Egg#
+9652#Obsidian Egg#
+9653#Pitman Egg#
+9654#Old Stove Egg#
+9655#Ungoliant Egg#
+9656#Porcellio Egg#
+9657#Noxious Egg#
+9658#Venomous Egg#
+9659#Teddy Bear Egg#
+9660#RSX-0806 Egg#
+9661#Old Stove Egg#
+9662#Porcellio Egg#
+9663#Hellion Revenant Egg#
+9664#Anopheles Egg#
+9665#Holden Egg#
+9666#Hill Wind Egg#
+9667#White Lady Egg#
+9668#Green Maiden Egg#
+9669#Gremlin Egg#
+9670#Beholder Egg#
+9671#Seyren Windsor Egg#
+9672#Eremes Guile Egg#
+9673#Howard Alt-Eisen Egg#
+9674#Margaretha Sorin Egg#
+9675#Cecil Damon Egg#
+9676#Kathryne Keyron Egg#
+9677#Lord Knight Seyren Egg#
+9678#Assassin Cross Eremes Egg#
+9679#Whitesmith Howard Egg#
+9680#High Priest Margaretha Egg#
+9681#Sniper Cecil Egg#
+9682#High Wizard Kathryne Egg#
+9683#Lord Knight Seyren Egg#
+9684#Assassin Cross Eremes Egg#
+9685#Whitesmith Howard Egg#
+9686#High Priest Margaretha Egg#
+9687#Sniper Cecil Egg#
+9688#High Wizard Kathryne Egg#
+9689#Egnigem Cenia Egg#
+9690#Wickebine Tres Egg#
+9691#Armeyer Dinze Egg#
+9692#Errende Ebecee Egg#
+9693#Kavach Icarus Egg#
+9694#Laurell Weinder Egg#
+9695#Egnigem Cenia Egg#
+9696#Wickebine Tres Egg#
+9697#Armeyer Dinze Egg#
+9698#Errende Ebecee Egg#
+9699#Kavach Icarus Egg#
+9700#Laurell Weinder Egg#
+9701#Photon Cannon Egg#
+9702#Photon Cannon Egg#
+9703#Photon Cannon Egg#
+9704#Photon Cannon Egg#
+9705#Archdam Egg#
+9706#Dimik Egg#
+9707#Dimik Egg#
+9708#Dimik Egg#
+9709#Dimik Egg#
+9710#Dimik Egg#
+9711#Monemus Egg#
+9712#Venatu Egg#
+9713#Venatu Egg#
+9714#Venatu Egg#
+9715#Venatu Egg#
+9716#Venatu Egg#
+9717#Hill Wind Egg#
+9718#Gemini-S58 Egg#
+9719#Remover Egg#
+9720#Photon Cannon Egg#
+9721#Archdam Egg#
+9722#Vesper Egg#
+9723#Orc Baby Egg#
+9724#Grove Egg#
+9725#Lady Tanee Egg#
+9726#White Lady Egg#
+9727#Spring Rabbit Egg#
+9728#Kraben Egg#
+9729#Breeze Egg#
+9730#Plasma Egg#
+9731#Plasma Egg#
+9732#Plasma Egg#
+9733#Plasma Egg#
+9734#Plasma Egg#
+9735#Death Word Egg#
+9736#Ancient Mimic Egg#
+9737#Dame of Sentinel Egg#
+9738#Mistress of Shelter Egg#
+9739#Baroness of Retribution Egg#
+9740#Lady Solace Egg#
+9741#Odium of Thanatos Egg#
+9742#Despero of Thanatos Egg#
+9743#Maero of Thanatos Egg#
+9744#Dolor of Thanatos Egg#
+9745#Memory of Thanatos Egg#
+9746#Odium of Thanatos Egg#
+9747#Despero of Thanatos Egg#
+9748#Maero of Thanatos Egg#
+9749#Dolor of Thanatos Egg#
+9750#Acidus Egg#
+9751#Ferus Egg#
+9752#Novus Egg#
+9753#Acidus Egg#
+9754#Ferus Egg#
+9755#Novus Egg#
+9756#Detardeurus Egg#
+9757#Hydrolancer Egg#
+9758#Dragon Egg Egg#
+9759#Jakk Egg#
+9760#Cecil Damon Egg#
+9761#Photon Cannon Egg#
+9762#Poring Egg#
+9763#Lunatic Egg#
+9764#Savage Babe Egg#
+9765#Baby Desert Wolf Egg#
+9766#Baphomet Jr. Egg#
+9767#Deviruchi Egg#
+9768#Doppelganger Egg#
+9769#Treasure Chest Egg#
+9770#Kiehl Egg#
+9771#Kiel D-01 Egg#
+9772#Alicel Egg#
+9773#Aliot Egg#
+9774#Aliza Egg#
+9775#Constant Egg#
+9776#Alicel Egg#
+9777#Aliot Egg#
+9778#Christmas Cookie Egg#
+9779#Carat Egg#
+9780#Myst Case Egg#
+9781#Wild Rose Egg#
+9782#Constant Egg#
+9783#Aliza Egg#
+9784#Boa Egg#
+9785#Anacondaq Egg#
 9786#Medusa Egg#
-9928#Abysmal Knight#
+9787#Red Plant Egg#
+9788#Valkyrie Randgris Egg#
+9789#Skogul Egg#
+9790#Frus Egg#
+9791#Skeggiold Egg#
+9792#Skeggiold Egg#
+9793#Hydrolancer Egg#
+9794#Acidus Egg#
+9795#Ferus Egg#
+9796#Acidus Egg#
+9797#Ferus Egg#
+9798#Skogul Egg#
+9799#Frus Egg#
+9800#Skeggiold Egg#
+9801#Skeggiold Egg#
+9802#Valkyrie Egg#
+9803#Angeling Egg#
+9804#Deviling Egg#
+9805#Gloom Under Night Egg#
+9806#Agav Egg#
+9807#Echio Egg#
+9808#Vanberk Egg#
+9809#Isilla Egg#
+9810#Hodremlin Egg#
+9811#Seeker Egg#
+9812#Snowier Egg#
+9813#Siroma Egg#
+9814#Ice Titan Egg#
+9815#Gazeti Egg#
+9816#Ktullanux Egg#
+9817#Muscipular Egg#
+9818#Drosera Egg#
+9819#Roween Egg#
+9820#Galion Egg#
+9821#Stapo Egg#
+9822#Atroce Egg#
+9823#Agav Egg#
+9824#Echio Egg#
+9825#Ice Titan Egg#
+9826#Iceicle Egg#
+9827#Rafflesia Egg#
+9828#Galion Egg#
+9829#Soccer Ball Egg#
+9830#Megalith Egg#
+9831#Roween Egg#
+9832#Bloody Knight Egg#
+9833#Aunoe Egg#
+9834#Fanat Egg#
+9835#Treasure Chest Egg#
+9836#Lord Knight Seyren Egg#
+9837#Assassin Cross Eremes Egg#
+9838#Mastersmith Howard Egg#
+9839#High Priest Margaretha Egg#
+9840#Sniper Cecil Egg#
+9841#High Wizard Kathryne Egg#
+9842#Lord Knight Seyren Egg#
+9843#Assassin Cross Eremes Egg#
+9844#Mastersmith Howard Egg#
+9845#High Priest Margaretha Egg#
+9846#Sniper Cecil Egg#
+9847#High Wizard Kathryne Egg#
+9848#Bandit Egg#
+9849#Delightful Lude Egg#
+9850#Hydrolancer Egg#
+9851#Moonlight Flower Egg#
+9852#Gourd Egg#
+9853#Detarderous Egg#
+9854#Alarm Egg#
+9855#Bathory Egg#
+9856#Bigfoot Egg#
+9857#Desert Wolf Egg#
+9858#Deviruchi Egg#
+9859#Freezer Egg#
+9860#Garm Baby Egg#
+9861#Chistmas Goblin Egg#
+9862#Myst Egg#
+9863#Sasquatch Egg#
+9864#Gullinbrusti Egg#
+9865#Sword Master Egg#
+9866#Bow Master Egg#
+9867#Salamander Egg#
+9868#Ifrit Egg#
+9869#Kasa Egg#
+9870#Salamander Egg#
+9871#Kasa Egg#
+9872#Magmaring Egg#
+9873#Fire Imp Egg#
+9874#Knocker Egg#
+9875#Byorgue Egg#
+9876#Golden Savage Egg#
+9877#Boa Egg#
+9878#Anacondaq Egg#
+9879#Side Winder Egg#
+9880#Isis Egg#
+9881#Treasure Box Egg#
+9882#Dream Metal Egg#
+9883#Poring Egg#
+9884#Baphomet Egg#
+9885#Osiris Egg#
+9886#Orc Hero Egg#
+9887#Mobster Egg#
+9888#Angeling Egg#
+9889#Deviling Egg#
+9890#Muka Egg#
+9891#Poison Spore Egg#
+9892#Magnolia Egg#
+9893#Marin Egg#
+9894#Plankton Egg#
+9895#Mandragora Egg#
+9896#Coco Egg#
+9897#Choco Egg#
+9898#Martin Egg#
+9899#Spring Rabbit Egg#
+9900#Zombie Slaughter Egg#
+9901#Ragged Zombie Egg#
+9902#Hell Poodle Egg#
+9903#Banshee Egg#
+9904#Banshee Egg#
+9905#Flame Skull Egg#
+9906#Necromancer Egg#
+9907#Fallen Bishop Hibram Egg#
+9908#Hell Fly Egg#
+9909#Beelzebub Egg#
+9910#Beelzebub Egg#
+9911#Dead King Egg#
+9912#Lord of the Dead Egg#
+9913#Crystal Egg#
+9914#Shining Plant Egg#
+9915#Leshij Egg#
+9916#Mavka Egg#
+9917#Baba-Yaga Egg#
+9918#Kikimora Egg#
+9919#Lesavka Egg#
+9920#Zmey Gorynych Egg#
+9921#Lesavka Egg#
+9922#Freezer Egg#
+9923#Garm Baby Egg#
+9924#Garm Egg#
+9925#Gopinich Egg#
+9926#Valkyrie Egg#
+9927#Loli Ruri Egg#
+9928#Abysmal Knight Egg#
+9929#Pouring Egg#
+9930#Seyren Windsor Egg#
+9931#Kathryne Keyron Egg#
+9932#Baphomet Egg#
+9933#Zombie Egg#
+9934#Sword Guardian Egg#
+9935#Condor Egg#
+9936#Treasure Box Egg#
+9937#Treasure Box Egg#
+9938#Bomb Poring Egg#
+9939#Satan Morroc Egg#
+9940#Satan Morroc Egg#
+9941#Morroc Shadow Egg#
+9942#Morroc Shadow Egg#
+9943#Morroc Shadow Egg#
+9944#Morroc Shadow Egg#
+9945#Morroc Shadow Egg#
+9946#Morroc Shadow Egg#
+9947#Morroc Shadow Egg#
+9948#Morroc Shadow Egg#
+9949#Naght Seiger Egg#
+9950#Entweihen Egg#
+9951#Entweihen Ghost Egg#
+9952#Entweihen Ghost Egg#
+9953#Entweihen Ghost Egg#
+9954#Entweihen Ghost Egg#
+9955#Antonio Egg#
