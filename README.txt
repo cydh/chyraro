@@ -51,15 +51,15 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- *Hungry delay rate
 	- *Loot when hungry
 	- *Master will not loot when idle
-11. Refine Bonus - Give more additional bonus for refined equipment, just like Script on item_db.txt	[Requested by Icabit]
-	- 15 USD
-	- db/refine_bonus.txt
+11. Deathmatch PVP - PVP likes Counter-Strike Deathmatch game	[Requested by Farhan]
+	- 15 USD, include all script commands that needed
+	- This is an auto PVP game, the most killer will be winner. Dead player will be respawned at PVP map for fighting until the end!
 12. 
 
 
 *******************************************************************
 -------------------------------------------------------------------
-//////////////////////// FULL SERVER BUNDLE ///////////////////////
+////////////////////////// SERVER FEATURES ////////////////////////
 -------------------------------------------------------------------
 *******************************************************************
 -----------------------------------
@@ -129,9 +129,9 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- NPC file: Security.txt
 19. Lock Player Atcommand - Prevent player to disable atcommand, so when player using every atcommand it will shows like normal chat.
 	- @lockcommand "<char name>" is used to lock or unlock
-	- lockcommand() is used to lock player atcommand by NPC script
-	- unlockcommand() is used to unlock by NPC script
-	- checklockcommand() is used to check the status by NPC script. 1 = locked, 0 = unlocked
+	- script command: lockcommand() is used to lock player atcommand by NPC script
+	- script command: unlockcommand() is used to unlock by NPC script
+	- script command: checklockcommand() is used to check the status by NPC script. 1 = locked, 0 = unlocked
 20. Drop Player Item - Drop certain item with certain amount from player inventory
 	- @dropitem <item id> <amount>
 	- @dropitem "<item name>" <amount>
@@ -173,9 +173,20 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 	- *Hungry delay rate
 	- *Loot when hungry
 	- *Master will not loot when idle
-35. Refine Bonus - Give more additional bonus for refined equipment, just like Script on item_db.txt	[Requested by Icabit, 15 USD]
+35. Refine Bonus - Give more additional bonus for refined equipment, just like Script on item_db.txt
 	- db/refine_bonus.txt
-36. 
+36. Map Warp Exceptions - Warp all players at specified map with exception
+	- script command: mapwarpexcept <"from map_name">,<"to map_name">,<to x>,<to y>,<AccountID>{,<CharVariableName>}
+37. Get Highest Variable Value - Return highest value of player variables at specified map and variable name
+	- script command: gethighestvalue <"CharVariableName">{,<Location>};
+38. Get Attached IDs - Return 2 array of attached IDs from specified variable and map
+	- script command: getattachedids <Type>,"<CharVariableName>"{,"<MAP_NAME>"}
+39. Freeze Map - Makes players freeze at specified map
+	- script command: freezemap {<"mapname">}{,<monsterignore '1'>};
+	- script command: unfreezemap {<"mapname">}{,<monsterignore '1'>};
+40. Deathmatch PVP - PVP likes Counter-Strike Deathmatch game	[Requested by Farhan, 10 USD]
+	- This is an auto PVP game, the most killer will be winner. Dead player will be respawned at PVP map for fighting until the end!
+41. 
 
 -----------------------------------
 -- Another Customs ----------------
