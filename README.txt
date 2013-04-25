@@ -54,7 +54,31 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf
 11. Deathmatch PVP - PVP likes Counter-Strike Deathmatch game	[Requested by Farhan]
 	- 15 USD, include all script commands that needed
 	- This is an auto PVP game, the most killer will be winner. Dead player will be respawned at PVP map for fighting until the end!
-12. 
+12. bSkillEle,n,x,y - Makes single attack skill has chance to has specified element when hit [Requested by Vince de Vera]
+	 - 10 USD
+	 - n is Skill Name, x is Element, y is Chance in percent
+13. Character ScriptBonus - Give specified character get { Script } bonus [Requested by Vince de Vera]
+	- 20 USD
+	- The bonuses are stored on table, and will be loaded when calculating pc status
+	- { Script } is based on doc/item_bonus.txt
+14. Experience Distance Share - Give max. distance for party member when receiving shared EXP [Requested by gintoki]
+	- 10 USD
+	- conf file: yes
+	- If party member is far away from decided distance, he/she will not receive any EXP
+15. MVP Walkable Distance - Makes MVP can walk away from its spawn point [Requested by gintoki]
+	- 10 USD
+	- conf file: yes
+	- If MVP walk away from its spawn point, it will be rewarped with full HP
+16. Permanent Flooritem - Allows player makes flooritem that can be cleaned by @cleanmap [Requested by Jham Ash]
+	- 5 USD
+	- @flooritem <item_id> <amount>
+	- The items only can be cleaned by @cleanflooritem
+17. Destroy global item - Delete all specified item on online players [Requested by Jham Ash]
+	- 10 USD
+	- @destroyitem <item_id>
+	- @destroycartitem <item_id>
+	- @destroystorageitem <item_id>
+18. 
 
 
 *******************************************************************
