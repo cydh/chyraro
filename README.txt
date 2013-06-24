@@ -7,7 +7,7 @@ http://pservero.com
 /////////////////// Pay for each modification /////////////////////
 -------------------------------------------------------------------
 *******************************************************************
-Every custom that has conf files, look at conf/battle/mod_cydh.conf
+Every custom that has conf files, look at conf/battle/mod_cydh.conf!
 1. Maxcap! - Give maximum damage when player attacking
 	- 30 USD (On sale 20 USD)
 	- conf file: yes
