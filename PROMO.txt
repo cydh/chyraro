@@ -14,18 +14,26 @@ http://pservero.com
 3. Please, do not (re)sell everything.
 4. Please, do not (re)share everything.
 5. Please, do not (re)upload everything.
-6. Please, do not mirroring every download links.
+6. Please, do not mirror every download links.
 7. After you buying my stuffs, then you ask other developer to handle it,
    you must tell me too.
 8. If you feel the price is too high for you, please feel free to contact me.
-9. Every undecided ToS right now, will be decided soon.
+9. Promo contents always be limited, not from all server features that
+   ChyraRO has
+10. Every undecided ToS right now, will be decided soon.
 
 ----------------------
 || File Regulations ||
 ----------------------
-1. Server files are PServeRO product, ChyraRO.
+1. Server files are ChyraRO files (PServeRO project).
 2. Server files are used for testing of idea implementation and some request
    that mean some files are not organized.
+3. The payment (cost) is needed to buy the custom paid modification not for
+   pay the emulator! So, that mean all modification should be compatible
+   for all OpenSource emulator around the world, especially for rAthena,
+   eAthena, 3CeAM, Hercules, and eAmod products too.
+4. I will not include the paid modification that really private features
+   from the preivous request.
 
 ---------------------
 || Setting Support ||
@@ -60,118 +68,117 @@ http://pservero.com
 	-> MainServer.patch		- Full .patch of server's trunk files
 	-> Client.7zip			- Sample lite client files
 2. I will give you the files based on latest revision of rAthena svn
-3. (Pack B) You can contact me to patch it, or do it yourself. DO NOT contact other!
+3. (Pack B) You can contact me to patch it, or do it yourself. Please DO NOT
+   contact other!
 4. Of course you must understand and carry out all statements above!
 
 --------------
 || Contents ||
 --------------
-Every custom that has conf files, look at conf/battle/mod_cydh.conf
+- Every custom that has conf files, look at conf/battle/mod_cydh.conf!
+- More details, you can contact me, if you can catch me online, feel free leave
+  offline message.
+- These contents are limited, if your desired content is not found, you can
+  ask request to replace or add them with special price (I mean with a little
+  discount :P)
 
-1. Separate Pick Log Tables - Look at log database on MySQL [Requested by Zack, 20 USD]
-	- conf file: yes
-2. Zeny From Mobs Adjusment - Adjust gained zeny from mobs as like you want, just like adjust item drop rates
-	- conf file: yes
-	- db/mob_zeny_db.txt
-	- Edit @rates and @mobinfo
-3. Delay2UseItem - Delay (in miliseconds) to use item after using skill
-	- conf file: yes
-	- conf/mapflag/delay2useitem.txt
-	- db/item_delay.txt
-4. Noconsume Mapflag - Prevent player to use item consumable item at noconsume maps
-	- conf file: yes
-	- conf/mapflag/noconsume.txt
-5. Noequip Mapflag - Prevent player to wear any equipments at noconsume maps
-	- conf file: yes
-	- conf/mapflag/noequip.txt
-6. Maxcap! - Give maximum damage when player attacking (On sale for 20 USD for .patch file only)
+--- Content from paid modifications ---
+1. Maxcap! - Give maximum damage when player attacking
+	- 40 USD
 	- conf file: yes
 	- conf/groups.conf - Set group permission to bypass this maxcap mode
-	- conf/mapflag/maxcap.txt
+	- npc/mapflag/maxcap.txt
 	- db/skill_maxcap_db.txt
-7. @refine Prevention - Prevent certain Group Level (conf/groups.conf) to instant refine item use @refine or @item2
-	- conf file: yes
-	- db/item_no_atrefine.txt
-	- Usage on @refine, @item2
-8. @item Prevention - Prevent certain Group Level (conf/groups.conf) to get item by using @item command
-	- db/item_no_atitem.txt
-	- Usage on @item
-9. Warp Delay - Give delay to player that attempts to escape when attacking or receiving attack.
-	- conf file: yes
-10. AFK Mapflag - @afk command only can be used at afk maps
-	- conf file: yes
-	- conf/mapflag/afk.txt
-11. Homunculus EXP Rates - Adjust EXP gained for Homunculus just like base_exp_rate and job_exp_rate
-	- conf file: yes
-	- conf/mapflag/nohomexp.txt (another mapflag 'hexp' works just like 'hexp' and 'jexp')
-	- db/mob_homun_exp.txt
-	- @showhomexp - Show homunculus EXP that gained after killing mobs
-	- Edit @rates and @mobinfo
-12. [BETA Test] Damage Adjustments - Adjust global damage rates, like PK damages on (conf/battle/misc.conf), GVG (conf/battle/guild.conf), and Battleground (conf/battle/battleground.conf)
-	- conf file: yes
-	- conf/mapflag/atk_rate.txt
-13. Auraset - Set additional aura for player. (Originally from eAthena old forum)
-	- @aura1 <number>
-	- @aura2 <number>
-	- Support 2 auras.
-14. Custom Broadcast Color - Broadcast font color using @broadcast or @localbroadcast depending on Group Level
-	- db/custom_broadcast_color.txt
-	- @reloadpcdb - Reload color database [Cydh]
-16. Advanced countitem() Script Command - Now can use countitem() to count certain item in cart, storage, or guild storage too. Also works for countitem2()
-	- Look at doc/script_commands.txt
-	- @countitem <item_id>
-	- @cartcountitem <item_id>
-	- @storagecountitem <item_id>
-17. Advanced delitem() Script Command - Now can use delitem() to count certain item in cart, storage, or guild storage too. Also works for delitem2()
-	- Look at doc/script_commands.txt
-	- @cartdelitem <item_id> <amount>
-	- @storagedelitem <item_id> <amount>
-18. Security System - Secure your items from transaction (On sale for 25 USD for .patch file only)
-	- @security
+	- [Info]
+		- Default maxcap: default maxcap damage for all skills if skill's maxcap doesn't specified on db/skill_maxcap_db.txt
+		- Default normal attack: non-skill damages have maxcap againts player, mob, boss, and other
+		- Defualt normal attack for EDP and (Maximum) Overthrust: non-skill damages have different damage if player has this buff
+2. Security System - Secure your items from transaction
+	- 30 USD (+5 USD for additional ack)
+	- @security - Custom atcommand to manage the security system
 	- NPC file: Security.txt
-19. Lock Player Atcommand - Prevent player to disable atcommand, so when player using every atcommand it will shows like normal chat.
-	- @lockcommand "<char name>" is used to lock or unlock
-	- lockcommand() is used to lock player atcommand by NPC script
-	- unlockcommand() is used to unlock by NPC script
-	- checklockcommand() is used to check the status by NPC script. 1 = locked, 0 = unlocked
-20. Drop Player Item - Drop certain item with certain amount from player inventory
-	- @dropitem <item id> <amount>
-	- @dropitem "<item name>" <amount>
-21. Store Items to Guild Storage - Instanly store all inventory items to guild storage, but must open guild storage at least once then close it first
-	- @gstoreall
-22. Put All Equipment Off - Put all equipments off intantly (all equipments from ALT+Q to inventory)
-	- @unequipall
-23. Away Message - Makes auto reply for whisper/incoming PM
-	- @away "<message>"
-24. AFK - Log off the account but makes the character left AFK in-game
-	- @afk "<chat room title>" - makes char AFK with chat room
-	- @afk2 "<away message>" - makes char AFK with Notice Board hat + away message (@away)
-25. Autostore Looted Items - Store all looted items to storage automatically without open the storage (On sale for 15 USD for .patch only)
+	- [Info]
+		- Prevent unlocked security to:
+		  . Ask trade request to other
+		  . Receive trade request from other
+		  . Sell item on NPC
+		  . Buy item from NPC
+		  . Open vending
+		  . Buy item from vender
+		  . Open buyingstore
+		  . Sell item to buyer
+		  . Compound card (additional ack)
+		  . Remove (set off) option from ALT+Q (additional ack)
+		  . Using skill that need zeny (additional ack)
+		  . Consume usable item (additional ack)
+		- GM (player with certain group level) can manage the global config
+3. Autostore Looted Items - Store all looted items to storage automatically without open the storage
+	- 15 USD
 	- @autostore <item type> {<min. char weight>}
-26. Intravision - Gives player intravision (Maya Purple Effect) without Maya Purple Card
-	- @intravision
-	- conf/groups.conf - Set group's permission to get Intravision instanlt for all player in certain group
-27. Taming Monster Skill - Sage's skill -Taming Monster- becomes custom skill for Super Novice classes
-28. bonus bNoEleStone - Custom item bonus that allow player use skill without Flame, Water, Wind Stone, and Shadow Orb
-	- doc/item_bonus
-29. Global Damage Adjustment - Set global damage rate for short and long attack damage, also weapon, magic, and misc skill damage
-	- conf file: yes
-	- conf/mapflag/atk_rate.txt - Adjust damage rate at certain map
-30. Map Announcer - Announces map description to player self every map changed
-	- conf file: yes
-	- db/map_desc.txt
-31. @storage2 - Open other player's storage [Requested by OnNPlay -Canceled-. On sale for 10 USD for .patch file only]
+	- [Info]
+		- Item type is defined in bitmask: 1 - Useable item, 2 - Equipment, 4 - Etc Item, 8 - Card
+4. @storage2 - Open other player's storage
+	- 15 USD (becomes 20 USD if you desire with @partnerstorage)
 	- @storage2 <char name>
-32. @partnerstorage - Open partner's storage (On sale for 10 USD for .patch file only)
-	- @partnerstorage
-33. Homunculus Damage Ignorance - Makes homunculus ignores any incoming damage	[Requested by Judas, 10 USD]
-	- conf file: yes	(improved)
-	- @homignoredamage - Makes your homunculus ignore every damage. Works like player @battleignore
-	- conf/mapflag/hom_ignorance.txt	(improved)
-34. Homunculus Modification - Another homunculus modification, more creation mode [Requested by CandyCandy, 30 USD]
+	- [Info]
+		- Only certain GM level can use this
+		- Can do whatever like open the own storage
+		- The target can't open and do any changes when GM accesses his/her storage
+5. Chat Color - Chat color that appears to another player can be customized depends on Group Level	[Requested by Zack]
+	- 5 USD
+	- db/chat_color_db.txt
+	- @reloadchatcolor - reload color database [Cydh]
+	- [Info]
+		- Specified group level will show different color from normal chat color
+6. Homunculus Damage Ignorance - Makes homunculus ignores any incoming damage	[Requested by Judas] [Improved by CandyCandy's request]
+	- 20 USD
 	- conf file: yes
-	- *Feeding success chance
-	- *Hide/temporary remove when hungry
-	- *Hungry delay rate
-	- *Loot when hungry
-	- *Master will not loot when idle
+	- @homimmune <immune type>
+	- npc/mapflag/hom_ignorance.txt
+	- [Info]
+		- Immunity type makes homun immune from: 1 - damage, 2 - status change, 3 - both
+7. Experience Distance Share - Give max. distance for party member when receiving shared EXP [Requested by gintoki]
+	- 10 USD
+	- conf file: yes
+	- [Info]
+		- If party member is far away from decided distance, he/she will not receive any EXP
+8. Permanent Flooritem - Allows player makes flooritem that can be cleaned by @cleanmap [Requested by Jham Ash]
+	- 5 USD
+	- @flooritem <item_id> <amount>
+	- conf file: yes
+	- [Info]
+		- The items only can be cleaned by @cleanflooritem
+9. Destroy global item - Delete all specified item on online players [Requested by Jham Ash]
+	- 10 USD
+	- @destroyitem <item_id>
+	- @destroycartitem <item_id>
+	- @destroystorageitem <item_id>
+	- @destroysqlitem <item_id>
+	- [Info]
+		- All specifed item will be deleted
+		- If using @destroysqlitem, it will delete from storage, guild storage, cart, and inventory from all players
+10. Delay2UseItem - Delay (in miliseconds) to use item after using skill
+	- 10 USD
+	- conf file: yes
+	- npc/mapflag/delay2useitem.txt
+	- db/item_delay.txt
+	- [Info]
+		- Gives delay after using specified skill to specified enemy
+11. Force Drop Item [Requested by Zack]
+	- 15 USD
+12. Weapon Level System [Requested by Zack]
+	- 25 USD
+13. Monster of The Month [Requested by Rasyid Razak]
+	- 25 USD
+14. Fixed PVP Cell system [Requested by RealRO]
+	- 20 USD
+15. Additional Item Bonus [Requested by ]
+	- 25 USD
+	- db/item_bonus_additional.txt
+	- [Info]
+		- Specified equip can has additional script bonus
+16. Advanced Vending Tax [Requested by ]
+	- 20 USD
+	- NPC included
+	- [Info]
+		- Specified map can has vending tax, and the map owner (guild) can get the tax
