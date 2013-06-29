@@ -30,7 +30,7 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf!
 	- @security - Custom atcommand to manage the security system
 	- NPC file: Security.txt
 	- [Info]
-		- Prevent unlocked security to:
+		- When security is active, it prevents player to:
 		  . Ask trade request to other
 		  . Receive trade request from other
 		  . Sell item on NPC
@@ -43,12 +43,13 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf!
 		  . Remove (set off) option from ALT+Q (additional ack)
 		  . Using skill that need zeny (additional ack)
 		  . Consume usable item (additional ack)
-		- GM (player with certain group level) can manage the global config
-4. Autostore Looted Items - Store all looted items to storage automatically without open the storage
+		- GM (or player with certain group level) can manage the global config of Security System
+4. Autostore Items - Store all looted items to storage automatically without open the storage
 	- 15 USD
 	- @autostore <item type> {<min. char weight>}
 	- [Info]
 		- Item type is defined in bitmask: 1 - Useable item, 2 - Equipment, 4 - Etc Item, 8 - Card
+		- Possible for @autoloot item or take the item from floor manually
 5. @storage2 - Open other player's storage
 	- 15 USD (becomes 20 USD if you desire with @partnerstorage)
 	- @storage2 <char name>
