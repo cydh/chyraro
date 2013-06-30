@@ -72,9 +72,14 @@ http://pservero.com
    contact other!
 4. Of course you must understand and carry out all statements above!
 
---------------
-|| Contents ||
---------------
+---------------------
+|| Pack A Contents ||
+---------------------
+All contents that written on README.txt
+
+---------------------
+|| Pack B Contents ||
+---------------------
 - Every custom that has conf files, look at conf/battle/mod_cydh.conf!
 - More details, you can contact me, if you can catch me online, feel free leave
   offline message.
