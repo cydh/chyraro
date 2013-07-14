@@ -114,7 +114,7 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf!
 	- [Info]
 		- If MVP walk away from its spawn point, it will be rewarped with full HP
 		- MVP doesn't move from their point if no enemy is around
-16. Permanent Flooritem - Allows player makes flooritem that can be cleaned by @cleanmap [Requested by Jham Ash]
+16. Permanent Flooritem - Allows player makes flooritem that can't be cleaned by @cleanmap [Requested by Jham Ash]
 	- 5 USD
 	- @flooritem <item_id> <amount>
 	- conf file: yes
