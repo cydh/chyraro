@@ -167,6 +167,18 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf!
 	- NPC included
 	- [Info]
 		- Specified map can has vending tax, and the map owner (guild) can get the tax
+30. Maintenance Status Command
+	- 15USD
+	- conf file: yes
+	- @maintenance <group_id can stay 1-99> <delay to kick in minute> <maintenance duration in minute>
+	- [Info]
+		- Turns the server status become maintenance
+		- During maintenance, player with group id below 'group_id can stay' will be kicked out
+		  after the countdown ('delay to kick') is done.
+		- Even server is restarted, but still in 'maintenance duration', it sets the maintenance status
+		  automatically
+		- Unaothorized player (player with group_id below 'group_id can stay') cannnot be logged in
+		- @maintenance off, to end the maintenance status
 
 
 *******************************************************************
