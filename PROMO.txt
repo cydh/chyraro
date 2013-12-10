@@ -1,53 +1,7 @@
 (c) 2012 ~ 2013 by Cydh - house.bad@gmail.com
 http://pservero.com
 
-*******************************************************************
--------------------------------------------------------------------
-//////////////////////////// STATEMENTS ///////////////////////////
--------------------------------------------------------------------
-*******************************************************************
-----------------------
-|| Terms of Service ||
-----------------------
-1. Please, do not copy every/part everything.
-2. Please, do not (re)distribute any everything.
-3. Please, do not (re)sell everything.
-4. Please, do not (re)share everything.
-5. Please, do not (re)upload everything.
-6. Please, do not mirror every download links.
-7. After you buying my stuffs, then you ask other developer to handle it,
-   you must tell me too.
-8. If you feel the price is too high for you, please feel free to contact me.
-9. Promo contents always be limited, not from all server features that
-   ChyraRO has
-10. Every undecided ToS right now, will be decided soon.
-
-----------------------
-|| File Regulations ||
-----------------------
-1. Server files are ChyraRO files (PServeRO project).
-2. Server files are used for testing of idea implementation and some request
-   that mean some files are not organized.
-3. The payment (cost) is needed to buy the custom paid modification not for
-   pay the emulator! So, that mean all modification should be compatible
-   for all OpenSource emulator around the world, especially for rAthena,
-   eAthena, 3CeAM, Hercules, and eAmod products too.
-4. I will not include the paid modification that really private features
-   from the preivous request.
-
----------------------
-|| Setting Support ||
----------------------
-1. I will support every settings that changed from original trunk files.
-2. Supporting only for basic server configuration.
-
----------------------------
-|| Updates & Bug Reports ||
----------------------------
-1. You will get updates freely based on modification that you have on your 
-   server bundle when you buy it.
-2. Updates are include modification improvement and bug fixing,
-3. Every bug that related with my modification, report it to me!
+EULA: https://code.google.com/p/chyraro/source/browse/EULA.txt
 
 ------------------
 || Server Setup ||
@@ -99,24 +53,27 @@ All contents that written on README.txt
 		- Default normal attack: non-skill damages have maxcap againts player, mob, boss, and other
 		- Defualt normal attack for EDP and (Maximum) Overthrust: non-skill damages have different damage if player has this buff
 2. Security System - Secure your items from transaction
-	- 30 USD (+5 USD for additional ack)
+	- 35 USD
+	- conf file: yes
 	- @security - Custom atcommand to manage the security system
 	- NPC file: Security.txt
 	- [Info]
-		- Prevent unlocked security to:
-		  . Ask trade request to other
-		  . Receive trade request from other
-		  . Sell item on NPC
-		  . Buy item from NPC
-		  . Open vending
-		  . Buy item from vender
-		  . Open buyingstore
-		  . Sell item to buyer
-		  . Compound card (additional ack)
-		  . Remove (set off) option from ALT+Q (additional ack)
-		  . Using skill that need zeny (additional ack)
-		  . Consume usable item (additional ack)
-		- GM (player with certain group level) can manage the global config
+		- When security is active, it prevents player to do some actions (set-able on battle config):
+		  . Drop item
+		  . Buy from vending
+		  . Open new vending
+		  . Sell to buyingstore
+		  . Open new buyingstore
+		  . Trading with other player
+		  . Add/Put item to/from guild storage
+		  . Break a guild
+		  . Clear inventory/cart/storage
+		  . Transaction with NPC
+		  . Remove option (cart, falcon, warg)
+		  . Compound card into equip
+		  . Delete homunculus
+		  . Using skill that need zeny & consume usable item (additional ack, +5 USD)
+		- GM (or player with certain group level) can manage the global config of Security System
 3. Autostore Looted Items - Store all looted items to storage automatically without open the storage
 	- 15 USD
 	- @autostore <item type> {<min. char weight>}
