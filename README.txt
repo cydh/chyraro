@@ -1,6 +1,8 @@
 (c) 2012 ~ 2013 by Cydh - house.bad@gmail.com
 http://pservero.com
 
+EULA: https://code.google.com/p/chyraro/source/browse/EULA.txt
+
 *******************************************************************
 -------------------------------------------------------------------
 //////////////////////// PAID MODIFICATION ////////////////////////
@@ -26,23 +28,26 @@ Every custom that has conf files, look at conf/battle/mod_cydh.conf!
 	- [Info]
 		- Separate 'picklog' table to several table logs based on enable_logs's ack that decided on log_athena.conf
 3. Security System - Secure your items from transaction
-	- 30 USD (+5 USD for additional ack)
+	- 35 USD
+	- conf file: yes
 	- @security - Custom atcommand to manage the security system
 	- NPC file: Security.txt
 	- [Info]
-		- When security is active, it prevents player to:
-		  . Ask trade request to other
-		  . Receive trade request from other
-		  . Sell item on NPC
-		  . Buy item from NPC
-		  . Open vending
-		  . Buy item from vender
-		  . Open buyingstore
-		  . Sell item to buyer
-		  . Compound card (additional ack)
-		  . Remove (set off) option from ALT+Q (additional ack)
-		  . Using skill that need zeny (additional ack)
-		  . Consume usable item (additional ack)
+		- When security is active, it prevents player to do some actions (set-able on battle config):
+		  . Drop item
+		  . Buy from vending
+		  . Open new vending
+		  . Sell to buyingstore
+		  . Open new buyingstore
+		  . Trading with other player
+		  . Add/Put item to/from guild storage
+		  . Break a guild
+		  . Clear inventory/cart/storage
+		  . Transaction with NPC
+		  . Remove option (cart, falcon, warg)
+		  . Compound card into equip
+		  . Delete homunculus
+		  . Using skill that need zeny & consume usable item (additional ack, +5 USD)
 		- GM (or player with certain group level) can manage the global config of Security System
 4. Autostore Items - Store all looted items to storage automatically without open the storage
 	- 15 USD
