@@ -1,7 +1,7 @@
-(c) 2012 ~ 2013 by Cydh - house.bad@gmail.com
+(c) 2012 ~ 2016 by Cydh - cydh.ramdh@gmail.com
 http://pservero.com
 
-EULA: https://code.google.com/p/chyraro/source/browse/EULA.txt
+EULA: https://github.com/cydh/chyraro/blob/master/EULA.txt
 
 *******************************************************************
 -------------------------------------------------------------------
